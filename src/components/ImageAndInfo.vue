@@ -1,6 +1,6 @@
 <template>
   <div class="specific-component-container">
-    <div class="text-box" :style="{ order: textBoxOrder }">
+    <div class="text-box text-left" :style="{ order: textBoxOrder }">
       <h1 class="hero-heading">{{ heroHeading }}</h1>
       <p class="hero-text">{{ heroText }}</p>
       <button class="hero-btn">{{ heroBtnText }}</button>
@@ -43,8 +43,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: start;
+  /* align-items: center; */
 }
 
 .hero-heading {
@@ -74,6 +73,7 @@ export default {
   padding: 16px 32px;
   font-weight: 300;
   text-transform: uppercase;
+  width: 50%;
 }
 
 .hero-btn:hover {
