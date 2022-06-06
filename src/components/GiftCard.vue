@@ -13,12 +13,12 @@
 
 <script>
 export default {
-  name: 'GiftCard',
+  name: "GiftCard",
   props: {
     imgSrc: String,
-    cardTitle: String
-  }
-}
+    cardTitle: String,
+  },
+};
 </script>
 
 <style scoped>

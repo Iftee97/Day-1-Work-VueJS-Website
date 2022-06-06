@@ -49,7 +49,6 @@ export default {
   padding: 16px 32px;
   /* border: none; */
   border-radius: 5px;
-
 }
 
 .darker-btn {
@@ -58,9 +57,20 @@ export default {
   border: none;
 }
 
+.darker-btn:hover {
+  color: #231f20;
+  background-color: #fff;
+}
+
 .transparent-btn {
   background-color: #f7941e;
   color: #000;
   border-color: #000;
+}
+
+.transparent-btn:hover {
+  color: #fff;
+  background-color: #000;
+  /* border-color: #fff; */
 }
 </style>

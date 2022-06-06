@@ -1,16 +1,26 @@
 <template>
   <div class="container-fluid footer-nav">
     <div class="foooter-links">
-      <ul>
-        <li>Home</li>
-        <li>About</li>
+      <ul class="footer-ul">
+        <li class="footer-link">
+          <a href="#">Home</a>
+        </li>
+
+        <li class="footer-link">
+          <a href="#">About</a>
+        </li>
       </ul>
 
       <img src="../assets/logo2.png" alt="logo-2" class="logo" />
 
       <ul>
-        <li>Service</li>
-        <li>Blog</li>
+        <li class="footer-link">
+          <a href="#">Service</a>
+        </li>
+
+        <li class="footer-link">
+          <a href="#">Blog</a>
+        </li>
       </ul>
     </div>
 
@@ -28,8 +38,8 @@
 
 <script>
 export default {
-  name: 'FooterComponent'
-}
+  name: "FooterComponent",
+};
 </script>
 
 <style scoped>
@@ -53,6 +63,15 @@ export default {
 .foooter-links ul li {
   font-weight: 600;
   padding: 75px;
+}
+
+.footer-link a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer-link a:hover {
+  color: #f7941e;
 }
 
 .footer-horizontal-rule {

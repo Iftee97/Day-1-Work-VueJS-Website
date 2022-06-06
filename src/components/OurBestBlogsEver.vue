@@ -24,11 +24,11 @@
     </div>
 
     <div class="container feature-cards">
-      <FeatureCard 
+      <FeatureCard
         featureHeading="Database to find the gifts for your girlfriend"
         featureDetails="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore..."
       />
-      <FeatureCard 
+      <FeatureCard
         featureHeading="How Artificial Intelligence read your mind to find the best gift"
         featureDetails="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore..."
       />
@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import FeatureCard from './FeatureCard.vue'
+import FeatureCard from "./FeatureCard.vue";
 
 export default {
   name: "OurBestBlogsEver",

@@ -1,10 +1,10 @@
 <template>
   <div class="feature-card">
     <h3 class="feature-heading">
-     {{ featureHeading }}
+      {{ featureHeading }}
     </h3>
     <p class="feature-details">
-     {{ featureDetails }}
+      {{ featureDetails }}
     </p>
     <a href="#" class="read-more-link">Read More ›</a>
   </div>
@@ -15,8 +15,8 @@ export default {
   name: "FeatureCard",
   props: {
     featureHeading: String,
-    featureDetails: String
-  }
+    featureDetails: String,
+  },
 };
 </script>
 
@@ -34,7 +34,7 @@ export default {
 }
 
 .feature-details {
-  margin-bottom: 32px
+  margin-bottom: 32px;
 }
 
 .read-more-link {
