@@ -69,7 +69,7 @@ export default {
   border-radius: 5px;
   color: #fff;
   font-size: 18px;
-  line-height: 22px;
+  /* line-height: 22px; */
   padding: 16px 32px;
   font-weight: 300;
   text-transform: uppercase;
